@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>大碗稀饭</title>
+    <link>https://chenxinfan.github.io/</link>
+    <description>分享技术心得和编程经验</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 23 Jun 2025 12:24:54 +0000</lastBuildDate>
+    <item>
+      <title>666666</title>
+      <link>https://chenxinfan.github.io//2025-06-17/6666666.html</link>
+      <description>Hello World&#xA;欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。&#xA;功能特性&#xA;这个博客生成�...</description>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <category>Go</category>
+      <category>博客</category>
+      <category>技术</category>
+    </item>
+    <item>
+      <title>Go语言入门教程</title>
+      <link>https://chenxinfan.github.io//go-tutorial.html</link>
+      <description>Go语言入门教程&#xA;Go语言是由Google开发的一种静态类型、编译型语言，具有简洁的语法和强大的并发特性。&#xA;安装Go&#xA;首先需要�...</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <category>编程语言</category>
+      <category>Go</category>
+      <category>教程</category>
+      <category>编程</category>
+    </item>
+    <item>
+      <title>Hello World - 我的第一篇博客</title>
+      <link>https://chenxinfan.github.io//hello-world.html</link>
+      <description>Hello World&#xA;欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。&#xA;功能特性&#xA;这个博客生成�...</description>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <category>Go</category>
+      <category>博客</category>
+      <category>技术</category>
+    </item>
+    <item>
+      <title>Hello World - 我的第1篇博客</title>
+      <link>https://chenxinfan.github.io//hello-world_1.html</link>
+      <description>Hello World&#xA;欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。&#xA;功能特性&#xA;这个博客生成�...</description>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <category>Go</category>
+      <category>博客</category>
+      <category>技术</category>
+    </item>
+    <item>
+      <title>Hello World - 我的第2篇博客</title>
+      <link>https://chenxinfan.github.io//hello-world_2.html</link>
+      <description>Hello World&#xA;欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。&#xA;功能特性&#xA;这个博客生成�...</description>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <category>Go</category>
+      <category>博客</category>
+      <category>技术</category>
+    </item>
+    <item>
+      <title>Hello World - 我的第3篇博客</title>
+      <link>https://chenxinfan.github.io//hello-world_3.html</link>
+      <description>Hello World&#xA;欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。&#xA;功能特性&#xA;这个博客生成�...</description>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <category>Go</category>
+      <category>博客</category>
+      <category>技术</category>
+    </item>
+    <item>
+      <title>Hello World - 我的第4篇博客</title>
+      <link>https://chenxinfan.github.io//hello-world_4.html</link>
+      <description>Hello World&#xA;欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。&#xA;功能特性&#xA;这个博客生成�...</description>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <category>Go</category>
+      <category>博客</category>
+      <category>技术</category>
+    </item>
+    <item>
+      <title>Hello World - 我的第4篇博客</title>
+      <link>https://chenxinfan.github.io//hello-world_5.html</link>
+      <description>Hello World&#xA;欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。&#xA;功能特性&#xA;这个博客生成�...</description>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <category>Go</category>
+      <category>博客</category>
+      <category>技术</category>
+    </item>
+  </channel>
+</rss>
