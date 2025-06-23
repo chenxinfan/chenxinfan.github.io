@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# 禁止访问管理页面和临时文件
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /.git/
+Disallow: /.env
+
+# 站点地图
+Sitemap: https://chenxinfan.com/sitemap.xml
+
+# 爬虫延迟（可选）
+Crawl-delay: 1
