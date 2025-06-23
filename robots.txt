@@ -8,7 +8,7 @@ Disallow: /.git/
 Disallow: /.env
 
 # 站点地图
-Sitemap: https://chenxinfan.com/sitemap.xml
+Sitemap: https://chenxinfan.github.io//sitemap.xml
 
 # 爬虫延迟（可选）
 Crawl-delay: 1

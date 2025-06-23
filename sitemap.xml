@@ -2,13 +2,13 @@
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://chenxinfan.com/</loc>
+    <loc>https://chenxinfan.github.io//</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/2025-06-17/6666666.html</loc>
+    <loc>https://chenxinfan.github.io//2025-06-17/6666666.html</loc>
     <lastmod>2024-01-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -20,14 +20,14 @@
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/go-tutorial.html</loc>
+    <loc>https://chenxinfan.github.io//go-tutorial.html</loc>
     <lastmod>2024-01-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/hello-world.html</loc>
+    <loc>https://chenxinfan.github.io//hello-world.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -39,7 +39,7 @@
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/hello-world_1.html</loc>
+    <loc>https://chenxinfan.github.io//hello-world_1.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -51,7 +51,7 @@
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/hello-world_2.html</loc>
+    <loc>https://chenxinfan.github.io//hello-world_2.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -63,7 +63,7 @@
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/hello-world_3.html</loc>
+    <loc>https://chenxinfan.github.io//hello-world_3.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -75,7 +75,7 @@
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/hello-world_4.html</loc>
+    <loc>https://chenxinfan.github.io//hello-world_4.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -87,7 +87,7 @@
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/hello-world_5.html</loc>
+    <loc>https://chenxinfan.github.io//hello-world_5.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -99,49 +99,49 @@
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/categories.html</loc>
+    <loc>https://chenxinfan.github.io//categories.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/categories/编程语言.html</loc>
+    <loc>https://chenxinfan.github.io//categories/编程语言.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/tags.html</loc>
+    <loc>https://chenxinfan.github.io//tags.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/tags/Go.html</loc>
+    <loc>https://chenxinfan.github.io//tags/Go.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/tags/博客.html</loc>
+    <loc>https://chenxinfan.github.io//tags/博客.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/tags/技术.html</loc>
+    <loc>https://chenxinfan.github.io//tags/技术.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/tags/教程.html</loc>
+    <loc>https://chenxinfan.github.io//tags/教程.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://chenxinfan.com/tags/编程.html</loc>
+    <loc>https://chenxinfan.github.io//tags/编程.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
