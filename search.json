@@ -1,100 +1,14 @@
 [
   {
-    "categories": null,
-    "content": "\u003cp\u003e\u003cimg src=\"./img/webwxgetmsgimg.gif\" alt=\"这是图片\" title=\"Magic Gardens\"\u003e\u003c/p\u003e\n\u003ch1\u003eHello World\u003c/h1\u003e\n\u003cp\u003e欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\u003c/p\u003e\n\u003ch2\u003e功能特性\u003c/h2\u003e\n\u003cp\u003e这个博客生成器支持以下功能：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eMarkdown 解析\u003c/strong\u003e: 使用 goldmark 解析 Markdown 文件\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eFront Matter\u003c/strong\u003e: 支持 YAML front matter 元数据\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e模板渲染\u003c/strong\u003e: 使用 Go 的 html/template 进行模板渲染\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e静态生成\u003c/strong\u003e: 生成纯静态 HTML 文件\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e代码示例\u003c/h2\u003e\n\u003cpre\u003e\u003ccode class=\"language-go\"\u003epackage main\n\nimport \u0026quot;fmt\u0026quot;\n\nfunc main() {\n    fmt.Println(\u0026quot;Hello, 静态博客生成器!\u0026quot;)\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e下一步计划\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e[ ] 添加分类和标签页面\u003c/li\u003e\n\u003cli\u003e[ ] 支持 RSS 订阅\u003c/li\u003e\n\u003cli\u003e[ ] 添加搜索功能\u003c/li\u003e\n\u003cli\u003e[ ] 支持自定义主题\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e感谢阅读！\u003c/p\u003e\n",
-    "summary": "Hello World\n欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\n功能特性\n这个博客生成\ufffd...",
-    "tags": [
-      "Go",
-      "博客",
-      "技术"
-    ],
-    "title": "666666",
-    "url": "2025-06-17/6666666.html"
-  },
-  {
     "categories": [
-      "编程语言"
+      "大碗稀饭"
     ],
-    "content": "\u003ch1\u003eGo语言入门教程\u003c/h1\u003e\n\u003cp\u003eGo语言是由Google开发的一种静态类型、编译型语言，具有简洁的语法和强大的并发特性。\u003c/p\u003e\n\u003ch2\u003e安装Go\u003c/h2\u003e\n\u003cp\u003e首先需要下载并安装Go语言环境：\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"language-bash\"\u003e# 下载Go\nwget https://golang.org/dl/go1.21.0.linux-amd64.tar.gz\n\n# 解压到/usr/local\nsudo tar -C /usr/local -xzf go1.21.0.linux-amd64.tar.gz\n\n# 设置环境变量\nexport PATH=$PATH:/usr/local/go/bin\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e第一个Go程序\u003c/h2\u003e\n\u003cp\u003e创建一个简单的Hello World程序：\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"language-go\"\u003epackage main\n\nimport \u0026quot;fmt\u0026quot;\n\nfunc main() {\n    fmt.Println(\u0026quot;Hello, Go!\u0026quot;)\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e基本语法\u003c/h2\u003e\n\u003ch3\u003e变量声明\u003c/h3\u003e\n\u003cpre\u003e\u003ccode class=\"language-go\"\u003e// 方式1：var关键字\nvar name string = \u0026quot;Go\u0026quot;\n\n// 方式2：短变量声明\nage := 25\n\n// 方式3：类型推断\nvar city = \u0026quot;Beijing\u0026quot;\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch3\u003e函数定义\u003c/h3\u003e\n\u003cpre\u003e\u003ccode class=\"language-go\"\u003efunc add(a, b int) int {\n    return a + b\n}\n\n// 多返回值\nfunc divide(a, b int) (int, error) {\n    if b == 0 {\n        return 0, fmt.Errorf(\u0026quot;除数不能为零\u0026quot;)\n    }\n    return a / b, nil\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e并发编程\u003c/h2\u003e\n\u003cp\u003eGo的goroutine让并发编程变得简单：\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"language-go\"\u003efunc main() {\n    go func() {\n        fmt.Println(\u0026quot;异步执行\u0026quot;)\n    }()\n    \n    time.Sleep(time.Second)\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e总结\u003c/h2\u003e\n\u003cp\u003eGo语言具有以下特点：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e简洁的语法\u003c/li\u003e\n\u003cli\u003e强大的并发支持\u003c/li\u003e\n\u003cli\u003e快速的编译速度\u003c/li\u003e\n\u003cli\u003e丰富的标准库\u003c/li\u003e\n\u003cli\u003e跨平台支持\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e学习Go语言是提升编程技能的好选择！\u003c/p\u003e\n",
-    "summary": "Go语言入门教程\nGo语言是由Google开发的一种静态类型、编译型语言，具有简洁的语法和强大的并发特性。\n安装Go\n首先需要\ufffd...",
+    "content": "\u003cblockquote\u003e\n\u003cp\u003e这是我在大碗稀饭这个博客下的第一篇博文\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch1\u003e大碗稀饭为何而来\u003c/h1\u003e\n\u003cp\u003e大一时，参加了学校的某次活动，也是那次活动，让我开始想写博客，想要记录自己大学学习的历程，所以我就在CSDN上写自己的技术博客，当然了在CSDN上面写的文章也没什么技术含量，多是总结一些前辈留下的知识点。我记得CSDN上面有个访问量，当初我记得大一的时候我就在想等我大四毕业的时候，CSDN的访问量能够突破10w就好了，所以我那个时候就特别努力，我就有空的时候就去点点自己的文章，以来增加访问量，后来我发现这样的效率太低了，于是我便放弃了，最终大学四年我在CSDN上面写了47篇文章，大一定的10w访问量目标也实现了。最后我放弃了在CSDN写博客，主要是觉得CSDN上面的广告太多了，博客样式我不是特别喜欢，所以我选择自建站。在大学四年里，总共自建站了两次，第一次使用hexo来实现的静态博客，自我感觉hexo博客还是挺不错的，我也是hexo上面写了几篇文章，但最终因为技术有限，想要魔改hexo样式，发现自己太菜了，做不了，在加之某天看到了一个大佬的博客，被他博客的样式吸引，心生向往，想要自己搞差不多的，于是才有了第二次建站。这次建站后端使用SpringBoot，前端使用Vue，vue-elementUI，但是2025年还是选择了静态博客，开发了基于go生成静态博客的工具，取名为inkwell，哈哈哈，希望自己能够将博客坚持维护下去\u003c/p\u003e\n\u003cp\u003e对于名字的由来，稀饭来源于小时候同学给我取的外号，大碗这是因为我在某些平台注册名字时，发现稀饭已经重复了，所以就加上了大碗来避免重复，最终博客名就是大碗稀饭。\u003c/p\u003e\n\u003ch1\u003e为什么写博客\u003c/h1\u003e\n\u003cp\u003e原因有二，一是想记录自己的学习历程，以及生活状态，二是希望某一天，有个大兄弟，说:我是看了XXX博客，才建站的（手动狗头）。我目前打算将这个博客写10年，希望我能够坚持下去。\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e写于2021/6/14\u003c/p\u003e\n\u003c/blockquote\u003e\n",
+    "summary": "这是我在大碗稀饭这个博客下的第一篇博文\n\n大碗稀饭为何而来\n大一时，参加了学校的某次活动，也是那次活动，让我开\ufffd...",
     "tags": [
-      "Go",
-      "教程",
-      "编程"
+      "大碗稀饭"
     ],
-    "title": "未知标题",
-    "url": "go-tutorial.html"
-  },
-  {
-    "categories": null,
-    "content": "\u003cp\u003e\u003cimg src=\"./img/webwxgetmsgimg.gif\" alt=\"这是图片\" title=\"Magic Gardens\"\u003e\u003c/p\u003e\n\u003ch1\u003eHello World\u003c/h1\u003e\n\u003cp\u003e欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\u003c/p\u003e\n\u003ch2\u003e功能特性\u003c/h2\u003e\n\u003cp\u003e这个博客生成器支持以下功能：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eMarkdown 解析\u003c/strong\u003e: 使用 goldmark 解析 Markdown 文件\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eFront Matter\u003c/strong\u003e: 支持 YAML front matter 元数据\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e模板渲染\u003c/strong\u003e: 使用 Go 的 html/template 进行模板渲染\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e静态生成\u003c/strong\u003e: 生成纯静态 HTML 文件\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e代码示例\u003c/h2\u003e\n\u003cpre\u003e\u003ccode class=\"language-go\"\u003epackage main\n\nimport \u0026quot;fmt\u0026quot;\n\nfunc main() {\n    fmt.Println(\u0026quot;Hello, 静态博客生成器!\u0026quot;)\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e下一步计划\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e[ ] 添加分类和标签页面\u003c/li\u003e\n\u003cli\u003e[ ] 支持 RSS 订阅\u003c/li\u003e\n\u003cli\u003e[ ] 添加搜索功能\u003c/li\u003e\n\u003cli\u003e[ ] 支持自定义主题\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e感谢阅读！\u003c/p\u003e\n",
-    "summary": "Hello World\n欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\n功能特性\n这个博客生成\ufffd...",
-    "tags": [
-      "Go",
-      "博客",
-      "技术"
-    ],
-    "title": "未知标题",
-    "url": "hello-world.html"
-  },
-  {
-    "categories": null,
-    "content": "\u003cp\u003e\u003cimg src=\"./img/webwxgetmsgimg.gif\" alt=\"这是图片\" title=\"Magic Gardens\"\u003e\u003c/p\u003e\n\u003ch1\u003eHello World\u003c/h1\u003e\n\u003cp\u003e欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\u003c/p\u003e\n\u003ch2\u003e功能特性\u003c/h2\u003e\n\u003cp\u003e这个博客生成器支持以下功能：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eMarkdown 解析\u003c/strong\u003e: 使用 goldmark 解析 Markdown 文件\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eFront Matter\u003c/strong\u003e: 支持 YAML front matter 元数据\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e模板渲染\u003c/strong\u003e: 使用 Go 的 html/template 进行模板渲染\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e静态生成\u003c/strong\u003e: 生成纯静态 HTML 文件\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e代码示例\u003c/h2\u003e\n\u003cpre\u003e\u003ccode class=\"language-go\"\u003epackage main\n\nimport \u0026quot;fmt\u0026quot;\n\nfunc main() {\n    fmt.Println(\u0026quot;Hello, 静态博客生成器!\u0026quot;)\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e下一步计划\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e[ ] 添加分类和标签页面\u003c/li\u003e\n\u003cli\u003e[ ] 支持 RSS 订阅\u003c/li\u003e\n\u003cli\u003e[ ] 添加搜索功能\u003c/li\u003e\n\u003cli\u003e[ ] 支持自定义主题\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e感谢阅读！\u003c/p\u003e\n",
-    "summary": "Hello World\n欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\n功能特性\n这个博客生成\ufffd...",
-    "tags": [
-      "Go",
-      "博客",
-      "技术"
-    ],
-    "title": "Hello World - 我的第1篇博客",
-    "url": "hello-world_1.html"
-  },
-  {
-    "categories": null,
-    "content": "\u003cp\u003e\u003cimg src=\"./img/webwxgetmsgimg.gif\" alt=\"这是图片\" title=\"Magic Gardens\"\u003e\u003c/p\u003e\n\u003ch1\u003eHello World\u003c/h1\u003e\n\u003cp\u003e欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\u003c/p\u003e\n\u003ch2\u003e功能特性\u003c/h2\u003e\n\u003cp\u003e这个博客生成器支持以下功能：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eMarkdown 解析\u003c/strong\u003e: 使用 goldmark 解析 Markdown 文件\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eFront Matter\u003c/strong\u003e: 支持 YAML front matter 元数据\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e模板渲染\u003c/strong\u003e: 使用 Go 的 html/template 进行模板渲染\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e静态生成\u003c/strong\u003e: 生成纯静态 HTML 文件\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e代码示例\u003c/h2\u003e\n\u003cpre\u003e\u003ccode class=\"language-go\"\u003epackage main\n\nimport \u0026quot;fmt\u0026quot;\n\nfunc main() {\n    fmt.Println(\u0026quot;Hello, 静态博客生成器!\u0026quot;)\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e下一步计划\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e[ ] 添加分类和标签页面\u003c/li\u003e\n\u003cli\u003e[ ] 支持 RSS 订阅\u003c/li\u003e\n\u003cli\u003e[ ] 添加搜索功能\u003c/li\u003e\n\u003cli\u003e[ ] 支持自定义主题\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e感谢阅读！\u003c/p\u003e\n",
-    "summary": "Hello World\n欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\n功能特性\n这个博客生成\ufffd...",
-    "tags": [
-      "Go",
-      "博客",
-      "技术"
-    ],
-    "title": "Hello World - 我的第2篇博客",
-    "url": "hello-world_2.html"
-  },
-  {
-    "categories": null,
-    "content": "\u003cp\u003e\u003cimg src=\"./img/webwxgetmsgimg.gif\" alt=\"这是图片\" title=\"Magic Gardens\"\u003e\u003c/p\u003e\n\u003ch1\u003eHello World\u003c/h1\u003e\n\u003cp\u003e欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\u003c/p\u003e\n\u003ch2\u003e功能特性\u003c/h2\u003e\n\u003cp\u003e这个博客生成器支持以下功能：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eMarkdown 解析\u003c/strong\u003e: 使用 goldmark 解析 Markdown 文件\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eFront Matter\u003c/strong\u003e: 支持 YAML front matter 元数据\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e模板渲染\u003c/strong\u003e: 使用 Go 的 html/template 进行模板渲染\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e静态生成\u003c/strong\u003e: 生成纯静态 HTML 文件\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e代码示例\u003c/h2\u003e\n\u003cpre\u003e\u003ccode class=\"language-go\"\u003epackage main\n\nimport \u0026quot;fmt\u0026quot;\n\nfunc main() {\n    fmt.Println(\u0026quot;Hello, 静态博客生成器!\u0026quot;)\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e下一步计划\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e[ ] 添加分类和标签页面\u003c/li\u003e\n\u003cli\u003e[ ] 支持 RSS 订阅\u003c/li\u003e\n\u003cli\u003e[ ] 添加搜索功能\u003c/li\u003e\n\u003cli\u003e[ ] 支持自定义主题\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e感谢阅读！\u003c/p\u003e\n",
-    "summary": "Hello World\n欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\n功能特性\n这个博客生成\ufffd...",
-    "tags": [
-      "Go",
-      "博客",
-      "技术"
-    ],
-    "title": "Hello World - 我的第3篇博客",
-    "url": "hello-world_3.html"
-  },
-  {
-    "categories": null,
-    "content": "\u003cp\u003e\u003cimg src=\"./img/webwxgetmsgimg.gif\" alt=\"这是图片\" title=\"Magic Gardens\"\u003e\u003c/p\u003e\n\u003ch1\u003eHello World\u003c/h1\u003e\n\u003cp\u003e欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\u003c/p\u003e\n\u003ch2\u003e功能特性\u003c/h2\u003e\n\u003cp\u003e这个博客生成器支持以下功能：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eMarkdown 解析\u003c/strong\u003e: 使用 goldmark 解析 Markdown 文件\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eFront Matter\u003c/strong\u003e: 支持 YAML front matter 元数据\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e模板渲染\u003c/strong\u003e: 使用 Go 的 html/template 进行模板渲染\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e静态生成\u003c/strong\u003e: 生成纯静态 HTML 文件\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e代码示例\u003c/h2\u003e\n\u003cpre\u003e\u003ccode class=\"language-go\"\u003epackage main\n\nimport \u0026quot;fmt\u0026quot;\n\nfunc main() {\n    fmt.Println(\u0026quot;Hello, 静态博客生成器!\u0026quot;)\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e下一步计划\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e[ ] 添加分类和标签页面\u003c/li\u003e\n\u003cli\u003e[ ] 支持 RSS 订阅\u003c/li\u003e\n\u003cli\u003e[ ] 添加搜索功能\u003c/li\u003e\n\u003cli\u003e[ ] 支持自定义主题\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e感谢阅读！\u003c/p\u003e\n",
-    "summary": "Hello World\n欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\n功能特性\n这个博客生成\ufffd...",
-    "tags": [
-      "Go",
-      "博客",
-      "技术"
-    ],
-    "title": "Hello World - 我的第4篇博客",
-    "url": "hello-world_4.html"
-  },
-  {
-    "categories": null,
-    "content": "\u003cp\u003e\u003cimg src=\"./img/webwxgetmsgimg.gif\" alt=\"这是图片\" title=\"Magic Gardens\"\u003e\u003c/p\u003e\n\u003ch1\u003eHello World\u003c/h1\u003e\n\u003cp\u003e欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\u003c/p\u003e\n\u003ch2\u003e功能特性\u003c/h2\u003e\n\u003cp\u003e这个博客生成器支持以下功能：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eMarkdown 解析\u003c/strong\u003e: 使用 goldmark 解析 Markdown 文件\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eFront Matter\u003c/strong\u003e: 支持 YAML front matter 元数据\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e模板渲染\u003c/strong\u003e: 使用 Go 的 html/template 进行模板渲染\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e静态生成\u003c/strong\u003e: 生成纯静态 HTML 文件\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e代码示例\u003c/h2\u003e\n\u003cpre\u003e\u003ccode class=\"language-go\"\u003epackage main\n\nimport \u0026quot;fmt\u0026quot;\n\nfunc main() {\n    fmt.Println(\u0026quot;Hello, 静态博客生成器!\u0026quot;)\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e下一步计划\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e[ ] 添加分类和标签页面\u003c/li\u003e\n\u003cli\u003e[ ] 支持 RSS 订阅\u003c/li\u003e\n\u003cli\u003e[ ] 添加搜索功能\u003c/li\u003e\n\u003cli\u003e[ ] 支持自定义主题\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e感谢阅读！\u003c/p\u003e\n",
-    "summary": "Hello World\n欢迎来到我的技术博客！这是我使用 Go 语言开发的静态博客生成器生成的第一篇文章。\n功能特性\n这个博客生成\ufffd...",
-    "tags": [
-      "Go",
-      "博客",
-      "技术"
-    ],
-    "title": "Hello World - 我的第4篇博客",
-    "url": "hello-world_5.html"
+    "title": "大碗稀饭",
+    "url": "2021/da-wan-xi-fan.html"
   }
 ]

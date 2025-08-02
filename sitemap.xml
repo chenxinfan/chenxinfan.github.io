@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
     <loc>https://chenxinfan.github.io//</loc>
@@ -8,94 +8,10 @@
   </url>
 
   <url>
-    <loc>https://chenxinfan.github.io//2025-06-17/6666666.html</loc>
-    <lastmod>2024-01-17</lastmod>
+    <loc>https://chenxinfan.github.io//2021/da-wan-xi-fan.html</loc>
+    <lastmod>2021-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>./img/webwxgetmsgimg.gif</image:loc>
-      <image:title>这是图片</image:title>
-      <image:caption>这是图片</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://chenxinfan.github.io//go-tutorial.html</loc>
-    <lastmod>2024-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://chenxinfan.github.io//hello-world.html</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>./img/webwxgetmsgimg.gif</image:loc>
-      <image:title>这是图片</image:title>
-      <image:caption>这是图片</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://chenxinfan.github.io//hello-world_1.html</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>./img/webwxgetmsgimg.gif</image:loc>
-      <image:title>这是图片</image:title>
-      <image:caption>这是图片</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://chenxinfan.github.io//hello-world_2.html</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>./img/webwxgetmsgimg.gif</image:loc>
-      <image:title>这是图片</image:title>
-      <image:caption>这是图片</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://chenxinfan.github.io//hello-world_3.html</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>./img/webwxgetmsgimg.gif</image:loc>
-      <image:title>这是图片</image:title>
-      <image:caption>这是图片</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://chenxinfan.github.io//hello-world_4.html</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>./img/webwxgetmsgimg.gif</image:loc>
-      <image:title>这是图片</image:title>
-      <image:caption>这是图片</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://chenxinfan.github.io//hello-world_5.html</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>./img/webwxgetmsgimg.gif</image:loc>
-      <image:title>这是图片</image:title>
-      <image:caption>这是图片</image:caption>
-    </image:image>
   </url>
 
   <url>
@@ -105,7 +21,7 @@
   </url>
 
   <url>
-    <loc>https://chenxinfan.github.io//categories/编程语言.html</loc>
+    <loc>https://chenxinfan.github.io//categories/大碗稀饭.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -117,31 +33,7 @@
   </url>
 
   <url>
-    <loc>https://chenxinfan.github.io//tags/Go.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://chenxinfan.github.io//tags/博客.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://chenxinfan.github.io//tags/技术.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://chenxinfan.github.io//tags/教程.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://chenxinfan.github.io//tags/编程.html</loc>
+    <loc>https://chenxinfan.github.io//tags/大碗稀饭.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
